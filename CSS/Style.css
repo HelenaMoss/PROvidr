@@ -116,13 +116,13 @@ pre { /*Список "Научная классификация"*/
 
 .text { /*Текст на баннере "10 фактов о выдрах"*/
 text-align: center; /*Выравнивание текста по центру*/
-margin-top: 14px;
-margin-right: 6px;
 }
 
 .ten { /*Текст "10"*/
   color: #C8E4C3;
   font: normal 540% Plakat, serif;
+  margin-top: 14px;
+  margin-right: 6px;
   letter-spacing: -0.08em; /*Межбуквенный интервал*/
 }
 
@@ -130,6 +130,7 @@ margin-right: 6px;
   color: black;
   font: normal 90% 'Myriad Pro', sans-serif;
   margin-top: -7px;
+  margin-right: 6px;
   line-height: 1em; /*Межстрочный интервал*/
 }
 
@@ -599,22 +600,27 @@ pre { /*Список "Научная классификация"*/
   left: 53%; /*Смещение элемента вправо относительно родительского контейнера*/
 }
 
+
+
+
+
 .text { /*Текст на баннере "10 фактов о выдрах"*/
 text-align: center; /*Выравнивание текста по центру*/
-margin-top: 6%;
-margin-right: 6%;
 }
 
 .ten { /*Текст "10"*/
   color: #C8E4C3;
   font-size: 19vw; /*Если задавать размер в vw (viewport width), то размер текста будет меняться в зависимости от ширины экрана*/ 
+  margin-top: 6%;
+  margin-right: 6%;
   letter-spacing: -0.08em; /*Межбуквенный интервал*/
 }
 
 .facti {  /*Текст "интересных фактов о выдрах"*/
   color: black;
   font-size: 3.3vw; /*Если задавать размер в vw (viewport width), то размер текста будет меняться в зависимости от ширины экрана*/ 
-  margin-top: -7%;
+  margin-top: -4%;
+  margin-right: 6%;
   line-height: 1em; /*Межстрочный интервал*/
 }
 
