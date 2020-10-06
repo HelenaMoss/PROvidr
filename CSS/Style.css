@@ -120,7 +120,7 @@ text-align: center; /*Выравнивание текста по центру*/
 
 .ten { /*Текст "10"*/
   color: #C8E4C3;
-  font: normal 540% Plakat, serif;
+  font: normal 540% Arial, serif;
   margin: 14px 6px 0 0;
   letter-spacing: -0.08em; /*Межбуквенный интервал*/
 }
