@@ -107,8 +107,8 @@ pre { /*Список "Научная классификация"*/
 
 .tenfactovnfon { /*Контейнер для баннера "10 фактов о выдрах*/
   background-image: url(images/tenfactovbanner.png); /*Фоновое изображение в контейнере*/
-  width: 185px;
-  height: 167px;
+  width: 182px;
+  height: 164px;
   position: absolute;  /*Абсолютное выравнивание элемента относительно родительского контейнера*/
   top: 472px; /*Смещение элемента вниз относительно родительского контейнера*/
   left: 720px; /*Смещение элемента вправо относительно родительского контейнера*/
@@ -118,17 +118,10 @@ pre { /*Список "Научная классификация"*/
 text-align: center; /*Выравнивание текста по центру*/
 }
 
-.ten { /*Текст "10"*/
-  color: #C8E4C3;
-  font: normal 540% Arial, serif;
-  margin: 14px 6px 0 0;
-  letter-spacing: -0.08em; /*Межбуквенный интервал*/
-}
-
 .facti {  /*Текст "интересных фактов о выдрах"*/
   color: black;
   font: normal 90% 'Myriad Pro', sans-serif;
-  margin: -7px 6px 0 0;
+  padding: 95px 6px 20px 0;
   line-height: 1em; /*Межстрочный интервал*/
 }
 
@@ -603,17 +596,17 @@ padding: 0;
 margin: 0;
 }
 
-p.ten { /*Текст "10"*/
-  color: #C8E4C3;
-  font-size: 19vw; /*Если задавать размер в vw (viewport width), то размер текста будет меняться в зависимости от ширины экрана*/
-  padding: 0; 
-  letter-spacing: -0.08em; /*Межбуквенный интервал*/
+.facti {  /*Текст "интересных фактов о выдрах"*/
+  color: black;
+  font: normal 90% 'Myriad Pro', sans-serif;
+  padding: 95px 6px 20px 0;
+  line-height: 1em; /*Межстрочный интервал*/
 }
 
 p.facti {  /*Текст "интересных фактов о выдрах"*/
   color: black;
   font-size: 3.3vw; /*Если задавать размер в vw (viewport width), то размер текста будет меняться в зависимости от ширины экрана*/ 
-  padding: 0; 
+  padding: 52% 6% 0 0; 
   line-height: 100%; /*Межстрочный интервал*/
 }
 
